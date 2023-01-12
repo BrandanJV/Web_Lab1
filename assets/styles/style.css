@@ -2,5 +2,45 @@ main{
     background-color: purple;
     color: white;
     text-align: center;
-    padding: 2em 0em 2em 0;
+    padding: 0em 2em;
+    
+}
+
+img{
+    width: 100px;
+} 
+
+.wrapper{
+    display: grid;
+    grid-gap: 10px;
+}
+
+.one{
+    grid-column: 1;
+    grid-row:1;
+}
+
+.two{
+    grid-column: 2/4;
+    grid-row:1/2;
+}
+
+.three{
+    grid-column: 2/4;
+    grid-row: 2/4;
+}
+
+.four{
+    grid-column: 2/4;
+    grid-row: 4/6;
+}
+
+.five{
+    grid-column: 1;
+    grid-row: 2/6;
+}
+
+.inline{
+    display: inline-block;
+    vertical-align: middle; 
 }

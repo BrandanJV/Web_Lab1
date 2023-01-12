@@ -4,36 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <title>Resume</title>
 </head>
 <body>
-    <main style="text-align: center;">
-        <h1>Brandan Jimenez <span><img src="assets\imgs\IMG_7220.JPG" alt="CV Picture" width="100"></span></h1>
-        <h3>ROBOTICS AND DIGITAL SYSTEMS
-            ENGINEERING UNDERGRADUATE</h3>
+    <main class="header">
+        <div class="inline">
+            <h1>Brandan Jimenez </h1>
+            <h3>ROBOTICS AND DIGITAL SYSTEMS
+                ENGINEERING UNDERGRADUATE</h3>
+        </div>
+        <div class="inline">
+            <span class="helper"><img src="assets\imgs\IMG_7220.JPG" alt="CV Picture"></span>
+        </div>
+        
+         
     </main>
 
-    <address>
-        <ul>
-            <li>Monterrey, NL.</li>
-            <li><a href="mailto:brandan.jv99@gmail.com">brandan.jv99@gmail.com</a></li>
-            <li><a href="https://www.linkedin.com/in/brandan-jimenez-1420391b5/">LinkedIn</a></li>
-            <li><a href="https://github.com/BrandanJV">Github</a></li>
-            <li><a href="tel:+522294388890">Phone</a></li>
-        </ul>
-    </address>
-    
-    <section>
+    <div class="wrapper">
+        <address style="vertical-align: middle;"  class="one">
+            <ul>
+                <li>Monterrey, NL.</li>
+                <li><a href="mailto:brandan.jv99@gmail.com">brandan.jv99@gmail.com</a></li>
+                <li><a href="https://www.linkedin.com/in/brandan-jimenez-1420391b5/">LinkedIn</a></li>
+                <li><a href="https://github.com/BrandanJV">Github</a></li>
+                <li><a href="tel:+522294388890">Phone</a></li>
+            </ul>
+        </address>
+
+        <div class="two">
         <h2>EDUCATION</h2>
-        <div>
             <h2>Tec de Monterrey (ITESM)</h2>
             <h3> Monterrey, Nuevo León | August 2017 - July 2023 </h3>
             <p>Bachelor of Robotics and digital systems engineering <br>GPA 87/100</p>
         </div>
-        
 
-        <h2> WORK EXPERIENCE</h2>
-        <div>
+        <div class="three">
+            <h2> WORK EXPERIENCE</h2>
             <h2>Tec Racing</h2>
             <h3>Tec de Monterrey | 2023</h3>
             <p>Electronic and telemetry staff</p>
@@ -54,8 +61,9 @@
             </ul>            
         </div>
 
-        <h2>PROJECTS</h2>
-        <div>
+        <div class="four">
+            <h2>PROJECTS</h2>
+            
             <h2>EVSE <span style="font-size: medium;">2022</span></h2>
             <p>Development of a Electric Vehicle Supply Equipment using open source tools.</p>
             <p>Tools: ESP-32, MATLAB, Arduino IDE, State Machine design.</p>
@@ -69,47 +77,35 @@
             <p>HID configuration of a PIC32MZ to work as a keyboard or mouse connected
                 to a computer.</p>
             <p>Tools: Harmony, MPLAB, C language.</p>
-
         </div>
-    </section>
+        
+        <div class="five">
+            <h2>Software Skills</h2>
+            <h3>Advanced (+2 years)</h3>
+            <ul>
+                <li>Python</li>
+                <li>C++</li>
+                <li>Linux</li>
+                <li>Matlab</li>
+            </ul>
+            <h3>Intermediate (1 year)</h3>
+            <ul>
+                <li>VHDL</li>
+                <li>ROS</li>
+                <li>Multisim</li>
+                <li>Embedded C</li>
+                <li>Assembly</li>
+            </ul>
+            <h3>Beginner</h3>
+            <ul>
+                <li>C#</li>
+                <li>CUDA</li>
+            </ul>
+        </div>
+    </div>
 
     <section>
-        <h2>Software Skills</h2>
-        <h3>Advanced (+2 years)</h3>
-        <ul>
-            <li>Python</li>
-            <li>C++</li>
-            <li>Linux</li>
-            <li>Matlab</li>
-        </ul>
-        <h3>Intermediate (1 year)</h3>
-        <ul>
-            <li>VHDL</li>
-            <li>ROS</li>
-            <li>Multisim</li>
-            <li>Embedded C</li>
-            <li>Assembly</li>
-        </ul>
-        <h3>Beginner</h3>
-        <ul>
-            <li>C#</li>
-            <li>CUDA</li>
-        </ul>
+        
     </section>
 </body>
 </html>
-
-<style>
-    section{
-        margin-left: 2em;
-    }
-
-    div{
-        margin-left: 2em;
-    }
-
-    h2{
-        font-weight: bold;
-    }
-
-</style>
